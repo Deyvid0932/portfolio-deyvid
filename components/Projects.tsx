@@ -89,12 +89,12 @@ export default function Projects() {
   }, [selectedProject, handleKeyDown]);
 
   return (
-    <section id="proyectos" className="relative py-12 sm:py-16 lg:py-16">
+    <section id="proyectos" className="relative py-10 sm:py-12 lg:py-12">
       <Container>
         <SectionHeader
           title="Proyectos de Impacto"
           description="Una selección de proyectos donde combino ingeniería de software con inteligencia artificial para crear productos con impacto real."
-          className="mb-6 sm:mb-8"
+          className="mb-4 sm:mb-6"
         />
 
         <div className="mb-4 flex items-center justify-between gap-4">
