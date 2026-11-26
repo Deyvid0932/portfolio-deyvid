@@ -21,7 +21,7 @@ export const projects: Project[] = [
     tags: ["TypeScript", "Python", "Java", "Rust", "MCP", "DeepSeek API", "Fish Audio"],
     githubUrl: "https://github.com/Deyvid0932/Pseudovoice",
     videoUrl: "/videos/pseudovoice.mp4",
-    videoDuration: "00:49",
+    videoDuration: "02:17",
     featured: true,
   },
   {
