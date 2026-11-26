@@ -89,14 +89,15 @@ export default function Projects() {
   }, [selectedProject, handleKeyDown]);
 
   return (
-    <section id="proyectos" className="relative py-16 sm:py-24 lg:py-32">
+    <section id="proyectos" className="relative py-12 sm:py-16 lg:py-16">
       <Container>
         <SectionHeader
           title="Proyectos de Impacto"
           description="Una selección de proyectos donde combino ingeniería de software con inteligencia artificial para crear productos con impacto real."
+          className="mb-6 sm:mb-8"
         />
 
-        <div className="mb-6 flex items-center justify-between gap-4">
+        <div className="mb-4 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2" role="tablist" aria-label="Indicadores del carrusel de proyectos">
             {projects.map((project, index) => (
               <button
@@ -200,7 +201,7 @@ export default function Projects() {
               </div>
 
               {/* Contenido */}
-              <div className="flex flex-1 flex-col gap-3.5 p-5 sm:p-6">
+              <div className="flex flex-1 flex-col gap-2.5 p-4 sm:p-5">
                 {/* Micro-badge de Destacado sutil integrado */}
                 {project.featured && (
                   <div className="flex items-center">
@@ -231,7 +232,7 @@ export default function Projects() {
                 </div>
 
                 {/* Barra de Acciones: Video Demo + Código + Demo Web */}
-                <div className="mt-2 flex flex-wrap items-center gap-4 border-t border-zinc-200/80 pt-4 dark:border-white/10">
+                <div className="mt-1 flex flex-wrap items-center gap-4 border-t border-zinc-200/80 pt-3 dark:border-white/10">
 
                   {project.githubUrl && (
                     <a
